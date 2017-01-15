@@ -27,9 +27,9 @@ $(document).ready(function() {
             } else {
                 console.log("hihi");
                 var div = $(data).find('#basic-data').html();
-                console.log('div fine');
+                console.log(div);
                 var addr = $(div).find('tbody > tr:nth-child(2) > td:nth-child(2)').text();
-                console.log(addr);              
+                console.log(addr);
                 document.getElementById("address").innerHTML = addr;
             }
         });
